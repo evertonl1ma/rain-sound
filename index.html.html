@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rain Sound</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="background-video">
+   	   <video class="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+   	   	   <source src="media/mp4/Walking-Away.mp4" type="video/mp4">
+   	   	   Seu navegador não suporta o elemento vídeo
+   	   </video>
+   </div>
+
+   <div class="content">
+       <h1>Rain Sound</h1>
+       <p>Relaxa, ajuda nos estudos e combate o estresse</p>
+
+       <div class="audio-content">
+       	  <audio id="audio" class="audio-elem" preload="auto" autoplay="true" loop="loop">
+       	     <source src="media/rain.mp3" type="audio/mp3">
+       	  	 Seu navegador não suporta o elemento áudio
+       	  </audio>
+
+
+       	  <div class="controlls">
+       	  	 <a href="#" class="vol" onclick="mute()">
+       	  	 	<img id="volume" src="img/volume-3.png">
+       	  	 </a>
+       	  	
+       	  	 <br>
+            <a href="#" class="volume menos" onclick="diminuir_volume()">&horbar;</a>
+			<a href="#" class="volume mais" onclick="aumentar_volume()">&plus;</a>
+       	  </div>
+       </div>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>

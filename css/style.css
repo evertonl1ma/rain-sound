@@ -1,0 +1,80 @@
+      * {
+	    	margin: 0;
+	    	padding: 0;
+	    }
+
+	     body {
+	   	    font-family: Calibri, sans-serif;
+	   }
+
+	   .background-video {
+	   	   position: fixed;
+	   	   z-index: -9999;
+	   	   width: 100%;
+	   	   height: 100%;
+	   	   overflow: hidden;
+	   	   top: 0;
+	   	   left: 0;
+	   }
+
+	   .video-bg-elem {
+	   		position: absolute;
+	   		min-width: 100%;
+	   		min-height: 100%;
+	   		top: 0;
+	   		left: 0;
+	   }
+
+	   .content {
+	   	    position: absolute;
+	   		width: 100%;
+	   		min-height: 100%;
+	   		z-index: 999;
+	   		background: rgba(0, 0, 0, 0.5);
+	   }
+
+	   .content h1 {
+	   		text-align: center;
+	   		font-size: 4em;
+	   		color: #FFF;
+	   		padding-top: 15%;
+	   		text-transform: uppercase;
+	   		margin-bottom: 15px;
+	   		font-weight: 300;
+	   }
+
+	   .content p {
+	   	    text-align: center;
+	   	    font-size: 1.3em;
+	   	    color: #AAA;
+	   	    letter-spacing: 3px;
+	   }
+
+	   .audio-content {
+	   	   text-align: center;
+	   }
+
+	   .controlls {
+	   		margin-top: 30px;
+	   }
+
+	   .controlls a {
+	   		text-decoration: none;
+	   }
+
+	   .volume {
+	   	color: #FFF;
+	   	font-weight: bold;
+	   }
+
+	   .vol {
+	   	 margin-left: 5px;
+	   }
+
+	   .mais {
+	   	margin-left: 20px;
+	   }
+
+	   .menos {
+	   	margin-right: 20px;
+	   }
