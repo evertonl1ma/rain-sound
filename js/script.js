@@ -4,7 +4,6 @@
 
 			function aumentar_volume(){
 				if( audio.volume < 1)  audio.volume += 0.1;
-				console.log(audio.volume);
 			}
 
 			function diminuir_volume(){
